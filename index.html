@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elijah Perfect Mobile Solution</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header, footer {
+            background-color: #f1c40f;
+            color: #000;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav {
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .section {
+            padding: 20px;
+        }
+        .yellow-highlight {
+            background-color: #f1c40f;
+            color: #000;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input, .form-group textarea, .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .ecommerce-item {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .ecommerce-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        .ecommerce-item button {
+            margin-top: 10px;
+        }
+        footer {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Elijah Perfect Mobile Solution</h1>
+        <p>Phone Repairs | Accessories | Phone Repair Academy</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#academy">Academy</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <section id="home" class="section">
+        <h2>Welcome to Elijah Perfect Mobile Solution</h2>
+        <p>Your one-stop shop for reliable phone repairs, quality accessories, and professional training at our Phone Repair Academy.</p>
+    </section>
+    <section id="services" class="section">
+        <h2>Our Services</h2>
+        <div>
+            <h3>Phone Repairs</h3>
+            <p>We repair all kinds of smartphones with precision and care.</p>
+            <button class="yellow-highlight">Book Repair</button>
+        </div>
+        <div>
+            <h3>Phone Accessories</h3>
+            <p>Browse our wide selection of premium phone accessories.</p>
+        </div>
+        <div class="ecommerce-item">
+            <img src="placeholder.jpg" alt="Accessory">
+            <h4>Accessory Name</h4>
+            <p>Price: $XX.XX</p>
+            <button>Buy Now</button>
+        </div>
+    </section>
+    <section id="academy" class="section">
+        <h2>Phone Repair Academy</h2>
+        <p>Enroll in our courses and learn to repair smartphones like a pro.</p>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="course">Select Course</label>
+                <select id="course">
+                    <option>Basic Phone Repair</option>
+                    <option>Advanced Phone Repair</option>
+                </select>
+            </div>
+            <button type="submit">Enroll Now</button>
+        </form>
+    </section>
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>Our story began with a passion for solving phone issues and educating others.</p>
+        <p>Mission: To provide excellent service and training for all things mobile solutions.</p>
+    </section>
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Address: Highway Towers</p>
+        <p>Phone: +254700 123 456</p>
+        <form>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="4" placeholder="Your message"></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Elijah Perfect Mobile Solution. All rights reserved.</p>
+    </footer>
+</body>
+</html>
